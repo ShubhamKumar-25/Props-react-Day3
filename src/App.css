@@ -1,0 +1,38 @@
+
+
+button {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #2a7cda;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+button:focus {
+  outline: 3px solid rgba(37, 99, 235, 0.5);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+body{
+    background-color: rgb(112, 67, 67);
+}
+
